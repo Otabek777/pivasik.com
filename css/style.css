@@ -383,6 +383,7 @@ ul, ol {
   z-index: 1; }
 
 .link {
+  overflow: hidden;
   margin-top: -86px;
   position: relative;
   padding: 200px 0 100px;
@@ -406,7 +407,7 @@ ul, ol {
   align-items: center;
   width: 670px;
   height: 120px;
-  background: url(../img/bg.png) no-repeat bottom/cover;
+  background: url(../img/bg_advent.png) no-repeat bottom/cover;
   border-radius: 20px;
   padding-left: 35px;
   font-family: 'Merriweather', sans-serif;
@@ -490,7 +491,8 @@ ul, ol {
       transform: translateX(-50%);
       -webkit-transition: all 0.7s ease;
       -o-transition: all 0.7s ease;
-      transition: all 0.7s ease; }
+      transition: all 0.7s ease;
+      height: 500px; }
 
 .product__left.right {
   margin-right: 0;
@@ -540,10 +542,11 @@ ul, ol {
     .product__right a .img {
       position: absolute;
       bottom: -50px;
-      right: 0;
+      right: -10%;
       -webkit-transition: all 0.7s ease;
       -o-transition: all 0.7s ease;
-      transition: all 0.7s ease; }
+      transition: all 0.7s ease;
+      height: 300px; }
   .product__right a:last-child {
     background: -webkit-gradient(linear, right top, left top, from(#2A2B25), color-stop(45.05%, rgba(80, 20, 0, 0.87)), to(#CB8924));
     background: -webkit-linear-gradient(right, #2A2B25 0%, rgba(80, 20, 0, 0.87) 45.05%, #CB8924 100%);
@@ -638,6 +641,7 @@ ul, ol {
   z-index: 1; }
 
 .slider {
+  overflow: hidden;
   position: relative;
   padding-top: 150px;
   padding-bottom: 150px;

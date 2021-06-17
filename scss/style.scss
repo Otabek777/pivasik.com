@@ -374,6 +374,7 @@ ul,ol {
     z-index: 1;
 }
 .link {
+    overflow: hidden;
     margin-top: -86px;
     position: relative;
     // overflow: hidden;
@@ -398,7 +399,7 @@ ul,ol {
     align-items: center;
     width: 670px;
     height: 120px;
-    background: url(../img/bg.png) no-repeat bottom / cover;
+    background: url(../img/bg_advent.png) no-repeat bottom / cover;
     border-radius: 20px;
     padding-left: 35px;
     font-family: 'Merriweather', sans-serif;
@@ -473,6 +474,7 @@ ul,ol {
             left: 50%;
             transform: translateX(-50%);
             transition: all.7s ease;
+            height: 500px;
         }
     }
 }
@@ -517,8 +519,9 @@ ul,ol {
         .img {
             position: absolute;
             bottom: -50px;
-            right: 0;
+            right: -10%;
             transition: all.7s ease;
+            height: 300px;
         }
     }
     a:last-child {
@@ -622,6 +625,7 @@ ul,ol {
     z-index: 1;
 }
 .slider {
+    overflow: hidden;
     .container {
         position: relative;
         z-index: 2;
